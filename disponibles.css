@@ -1,0 +1,42 @@
+/*.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #000;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ }
+ .navbar .logo {
+    font-size: none;
+    font-weight: bold;
+    color: white;
+ }
+ .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+ }
+ .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+ }
+ .nav-links a:hover {
+    color: burlywood;
+ }
+ .burger {
+    display: none;
+    flex-direction: column;
+    gap: 0.3rem;
+    cursor: pointer;
+ }
+ .burger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+ }
+ 
+ 

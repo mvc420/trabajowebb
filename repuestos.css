@@ -1,0 +1,139 @@
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 2rem;
+   background: #000;
+   color: white;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+}
+.navbar .logo {
+   font-size: none;
+   font-weight: bold;
+   color: white;
+}
+.nav-links {
+   list-style: none;
+   display: flex;
+   gap: 1rem;
+}
+.nav-links a {
+   text-decoration: none;
+   color: white;
+   transition: color 0.3s;
+}
+.nav-links a:hover {
+   color: burlywood;
+}
+.burger {
+   display: none;
+   flex-direction: column;
+   gap: 0.3rem;
+   cursor: pointer;
+}
+.burger span {
+   width: 25px;
+   height: 3px;
+   background: gray;
+}
+ 
+ 
+ 
+ body {
+   font-family: 'Space Grotesk',sans-serif;
+   background-color: #141c29;
+   padding-top: 80px;
+ } 
+ h1 {
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   margin: 30px 0px;
+   position: relative;
+ }
+ img {
+   width: 250px;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 20px 20px 0px 0px;
+ }
+ header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15%;
+   height: 70px;
+   top: 0;
+   position: absolute;
+   width: 100%;
+   left: 400px;
+ }
+ 
+
+ #carrito{
+   filter: invert(100%);
+   width: 45px;
+   height: auto;
+   
+ }
+ .container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 50px;
+   margin-bottom: 20px;
+ }
+ .container>div {
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+   background-color: white;
+   border-radius: 20px;
+ }
+.container>div:hover {
+background-color: gray;
+}
+#card {
+  width: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:15px;
+ }
+ #card>p:first-child {
+   font-family: 'Monserrat', sans-serif;
+   font-size: 25px;
+   font-weight: 300;
+ }
+#card #precio {
+font-size: 20px;
+font-weight: 500;
+}
+#card #precio span {
+   font-size: 17px;
+   font-weight: 300;
+}
+#card button {
+   background-color: white;
+   width: 100px;
+   height: 35;
+   border-radius: 10px;
+   border: none;
+
+   font-size: 17px;
+   font-weight: 300;
+   cursor: pointer;
+}
+#card button :hover {
+   background-color: #2D4263;
+}
+.actualizarCarrito {
+   background-color: gray;
+   font-family: 'Space Grotesk',sans-serif;
+   background-color: #141c29;
+   padding-top: 80px;
+
+}
+
+
+
